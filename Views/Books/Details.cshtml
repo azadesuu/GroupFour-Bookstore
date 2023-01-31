@@ -37,11 +37,7 @@
     </dl>
 </div>
 <div>
-
-    if (!model.isBorrowed){
-        <a asp-action="Reserve" asp-route-id="@Model?.Id">Reserve</a>
-    }
-
+   <a asp-action="Reserve" asp-route-id="@Model?.Id">Reserve</a> |
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>

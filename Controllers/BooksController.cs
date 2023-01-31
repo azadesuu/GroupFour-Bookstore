@@ -185,10 +185,6 @@ namespace Library.Controllers
         }
         // GET: Books/Reserve
         //[Authorize]
-        public IActionResult Reserve()
-        {
-            return View();
-        }
 
         // POST: Books/Reserve
         // To protect from overposting attacks, enable the specific properties you want to bind to.
